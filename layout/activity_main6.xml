@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffb3"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Check BMI"
+        android:textSize="25sp"
+        android:id="@+id/text1"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Enter Height in Feet:"
+        android:id="@+id/et"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Height in Inch:"
+        android:id="@+id/et2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Weight in KG:"
+        android:id="@+id/et1"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height = "70dp"
+        android:textColor="#ffa500"
+        android:textSize="20sp"
+        android:id="@+id/b1"
+        android:text="Check BMi"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height = "70dp"
+        android:textColor="#ffa500"
+        android:textSize="20sp"
+        android:id="@+id/b2"
+        android:text="Back" />
+
+
+
+
+</LinearLayout>
